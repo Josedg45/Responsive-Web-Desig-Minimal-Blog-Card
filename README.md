@@ -26,4 +26,4 @@ The design is fully responsive and utilizes a minimalist approach with a simple 
 
 ## Page 
 
--x
+-https://josedg45.github.io/Responsive-Web-Desig-Minimal-Blog-Card/
