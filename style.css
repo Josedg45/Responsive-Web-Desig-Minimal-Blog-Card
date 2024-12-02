@@ -1,0 +1,53 @@
+:root {
+  --primary-color: #394150;
+  --link-color: #7C19EE;
+  --border-color: #D2D5DA;
+}
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 32px;
+    padding: 72px;
+  }
+  
+  .grid-item {
+    grid-column: span 6;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+h1 {
+  font-family: 'Sora', sans-serif;
+  font-size: 18px;
+  font-size: 1.125rem;
+  color: var(--primary-color); 
+}
+
+
+.sora-body {
+  font-family: 'Sora', sans-serif;
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: var(--primary-color); 
+}
+
+
+h2 {
+  font-family: 'Sora', sans-serif;
+  font-size: 12px;
+  font-size: 0.75rem;
+  color: var(--link-color); 
+}
+
+
+.sora-tag {
+  font-family: 'Sora', sans-serif;
+  font-size: 10px;
+  font-size: 0.625rem;
+  color: var(--primary-color); 
+}
